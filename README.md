@@ -1,10 +1,12 @@
 # Flutter Docker
 
 [![build](https://github.com/avetkhov/flutter-docker/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/avetkhov/flutter-docker/actions/workflows/build.yml)
-[![Docker Pulls](https://badgen.net/docker/pulls/avetkhov/flutter?icon=docker&label=pulls)](https://hub.docker.com/r/avetkhov/flutter/)
-[![Docker Image Size](https://badgen.net/docker/size/avetkhov/flutter?icon=docker&label=size)](https://hub.docker.com/r/avetkhov/flutter/)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/avetkhov/flutter?logo=docker&logoColor=white&label=version)
+![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/avetkhov/flutter?logo=docker&logoColor=white&label=size)
+![Docker Pulls](https://img.shields.io/docker/pulls/avetkhov/flutter?logo=docker&logoColor=white&label=pulls)
+![Docker Stars](https://img.shields.io/docker/stars/avetkhov/flutter?logo=docker&logoColor=white&label=stars)
 
-Based on [`avetkhov/android-sdk:tools`][1]
+Based on [`avetkhov/android-sdk:tools`][1].
 
 
 ## Supported toolchains
