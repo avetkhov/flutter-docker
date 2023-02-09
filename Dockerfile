@@ -81,4 +81,5 @@ RUN yes | sdkmanager --install \
 
 COPY Gemfile /Gemfile
 
-RUN bundle install
+RUN bundle install \
+    && rm Gemfile.*

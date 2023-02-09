@@ -39,7 +39,7 @@ jobs:
           echo "SDK_VERSION=$version" >> $GITHUB_OUTPUT
         id: flutter
 
-      - uses: docker/build-push-action@v3
+      - uses: docker/build-push-action@v4
         with:
           context: .
           file: ./Dockerfile
@@ -50,3 +50,9 @@ jobs:
           tags: |
             avetkhov/flutter:latest
             avetkhov/flutter:${{steps.flutter.outputs.SDK_VERSION}}
+
+      - uses: peter-evans/dockerhub-description@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          repository: avetkhov/flutter
