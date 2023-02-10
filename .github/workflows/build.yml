@@ -9,6 +9,8 @@ on:
 jobs:
   build_flutter:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
     strategy:
       fail-fast: false
       matrix:
