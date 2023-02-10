@@ -1,7 +1,7 @@
 # Flutter Docker
 
 [![build](https://github.com/avetkhov/flutter-docker/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/avetkhov/flutter-docker/actions/workflows/build.yml)
-![Docker Image Version (latest semver)](https://img.shields.io/docker/v/avetkhov/flutter?logo=docker&logoColor=white&label=version)
+![Docker Image Version (latest semver)](https://img.shields.io/docker/v/avetkhov/flutter?sort=semver&logo=docker&logoColor=white&label=version)
 ![Docker Image Size (latest semver)](https://img.shields.io/docker/image-size/avetkhov/flutter?logo=docker&logoColor=white&label=size)
 ![Docker Pulls](https://img.shields.io/docker/pulls/avetkhov/flutter?logo=docker&logoColor=white&label=pulls)
 ![Docker Stars](https://img.shields.io/docker/stars/avetkhov/flutter?logo=docker&logoColor=white&label=stars)
