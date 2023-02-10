@@ -59,7 +59,7 @@ jobs:
           push: true
           tags: |
             avetkhov/flutter:${{ matrix.flutter_sdk }}
-            ghcr.io/flutter:${{ matrix.flutter_sdk }}
+            ghcr.io/${{ github.repository }}/flutter:${{ matrix.flutter_sdk }}
 
       - uses: peter-evans/dockerhub-description@v3
         with:
