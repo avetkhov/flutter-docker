@@ -7,7 +7,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  build_flutter:
+  build:
     runs-on: ubuntu-latest
     permissions:
       packages: write
