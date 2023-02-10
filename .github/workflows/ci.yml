@@ -9,7 +9,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  build_flutter:
+  push:
     runs-on: ubuntu-latest
     permissions:
       packages: write
@@ -58,7 +58,7 @@ jobs:
           platforms: linux/amd64
           build-args: |
             FLUTTER_SDK_VERSION=${{ steps.flutter.outputs.SDK_VERSION }}
-          push: ${{ (github.event_name == 'pull_request' && false) || true }}
+          push: ${{ (github.event_name != 'pull_request' && false) || true }}
           tags: |
             avetkhov/flutter:latest
             avetkhov/flutter:${{ steps.flutter.outputs.SDK_VERSION }}
