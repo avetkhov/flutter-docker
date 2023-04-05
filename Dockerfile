@@ -56,7 +56,6 @@ RUN set -x \
     && flutter --version
 
 RUN yes | sdkmanager --install \
-    "build-tools;34.0.0" \
     "build-tools;33.0.0" "build-tools;33.0.1" "build-tools;33.0.2" \
     "build-tools;32.0.0" \
     "build-tools;31.0.0" \
